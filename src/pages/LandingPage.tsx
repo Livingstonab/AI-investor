@@ -6,6 +6,22 @@ import ThemeToggle from '../components/ThemeToggle';
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
+      {/* Bolt Logo Banner */}
+      <div className="bg-black py-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center">
+            <img 
+              src="/black_circle_360x360.png" 
+              alt="Powered by Bolt" 
+              className="h-12 w-12 mr-3"
+            />
+            <span className="text-white font-semibold text-lg">
+              Powered by Bolt - New Made in Bolt
+            </span>
+          </div>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-100 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
